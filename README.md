@@ -58,7 +58,7 @@ py -m pip install requests "qrcode[pil]" pycryptodome
 1. Descarga el repositorio mediante **Code → Download ZIP**, o clónalo:
 
    ```bash
-   git clone https://github.com/EryxZar/MangaBilibili-API.git
+   git clone https://github.com/EryxZar/Bilibili-Manga-Client.git
    ```
 
 2. Descomprime el ZIP, si corresponde.
@@ -391,7 +391,7 @@ py -m pip install requests "qrcode[pil]" pycryptodome
 1. Download the repository using **Code → Download ZIP**, or clone it:
 
    ```bash
-   git clone https://github.com/EryxZar/MangaBilibili-API.git
+   git clone https://github.com/EryxZar/Bilibili-Manga-Client.git
    ```
 
 2. Extract the ZIP if needed.
