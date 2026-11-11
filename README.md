@@ -182,7 +182,7 @@ COMPRAR
 
 Si escribes otra cosa, no se envía la petición de compra.
 
-> **Aviso sobre compras:** las monedas y tickets tienen valor dentro de tu cuenta. Revisa cuidadosamente el resumen antes de escribir `BUY`. La respuesta final de Bilibili es la autoridad sobre si una compra se acepta y qué descuento se aplicó. La disponibilidad y las condiciones de descuentos/tickets pueden cambiar según el capítulo y la cuenta.
+> **Aviso sobre compras:** las monedas y tickets tienen valor dentro de tu cuenta. Revisa cuidadosamente el resumen antes de escribir `COMPRAR`. La respuesta final de Bilibili es la autoridad sobre si una compra se acepta y qué descuento se aplicó. La disponibilidad y las condiciones de descuentos/tickets pueden cambiar según el capítulo y la cuenta.
 
 ### 7. Descarga y ubicación de los archivos
 
