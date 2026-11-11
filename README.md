@@ -177,7 +177,7 @@ Antes de cada compra, el cliente vuelve a consultar `ComicDetail` para comprobar
 Para confirmar el lote de compras debes escribir exactamente:
 
 ```text
-BUY
+COMPRAR
 ```
 
 Si escribes otra cosa, no se envía la petición de compra.
