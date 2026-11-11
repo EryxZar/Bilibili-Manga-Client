@@ -62,13 +62,13 @@ py -m pip install requests "qrcode[pil]" pycryptodome
    ```
 
 2. Descomprime el ZIP, si corresponde.
-3. Abre CMD o PowerShell dentro de la carpeta donde se encuentra `bilibili_manga_client_english.py`.
+3. Abre CMD o PowerShell dentro de la carpeta donde se encuentra `bilibili_manga_client.py`.
 4. Instala las dependencias indicadas arriba.
 5. Ejecuta el programa.
 
 ### Opción B: descargar solo el archivo Python
 
-1. Descarga `bilibili_manga_client_english.py` desde el repositorio.
+1. Descarga `bilibili_manga_client.py` desde el repositorio.
 2. Guárdalo en una carpeta propia, por ejemplo `C:\BilibiliMangaClient\`.
 3. Abre una terminal en esa carpeta.
 4. Instala las dependencias y ejecuta el script.
@@ -80,7 +80,7 @@ py -m pip install requests "qrcode[pil]" pycryptodome
 La forma más sencilla es ejecutar:
 
 ```bash
-py bilibili_manga_client_english.py
+py bilibili_manga_client.py
 ```
 
 El programa preguntará si deseas iniciar sesión con QR.
@@ -103,7 +103,7 @@ https://manga.bilibili.com/detail/mc34224
 También puedes forzar el inicio de sesión QR desde los argumentos:
 
 ```bash
-py bilibili_manga_client_english.py --qr-login
+py bilibili_manga_client.py --qr-login
 ```
 
 El QR se guarda junto al script como `bilibili_login_qr.png`. El programa espera la confirmación del teléfono. Cuando el login es válido, guarda las cookies en `bilibili_cookies.json`.
@@ -227,13 +227,13 @@ El progreso de las páginas se actualiza en una sola línea. Los errores se mues
 Ejemplo con carpeta de salida personalizada y 6 descargas simultáneas:
 
 ```bash
-py bilibili_manga_client_english.py --comic-id 34224 --output "D:\Manga" --workers 6
+py bilibili_manga_client.py --comic-id 34224 --output "D:\Manga" --workers 6
 ```
 
 Consultar todos los argumentos:
 
 ```bash
-py bilibili_manga_client_english.py --help
+py bilibili_manga_client.py --help
 ```
 
 ## 🧩 Explicación técnica y APIs utilizadas
@@ -395,13 +395,13 @@ py -m pip install requests "qrcode[pil]" pycryptodome
    ```
 
 2. Extract the ZIP if needed.
-3. Open CMD, PowerShell, or a terminal in the folder containing `bilibili_manga_client_english.py`.
+3. Open CMD, PowerShell, or a terminal in the folder containing `bilibili_manga_client.py`.
 4. Install the dependencies listed above.
 5. Run the client.
 
 ### Option B: Download the Python file only
 
-1. Download `bilibili_manga_client_english.py` from the repository.
+1. Download `bilibili_manga_client.py` from the repository.
 2. Save it in a dedicated folder, for example `C:\BilibiliMangaClient\`.
 3. Open a terminal in that folder.
 4. Install the dependencies and run the script.
@@ -413,7 +413,7 @@ py -m pip install requests "qrcode[pil]" pycryptodome
 The easiest way to start the client is:
 
 ```bash
-py bilibili_manga_client_english.py
+py bilibili_manga_client.py
 ```
 
 The program asks whether you want to log in using a QR code.
@@ -436,7 +436,7 @@ https://manga.bilibili.com/detail/mc34224
 You can force QR login using:
 
 ```bash
-py bilibili_manga_client_english.py --qr-login
+py bilibili_manga_client.py --qr-login
 ```
 
 The QR image is saved beside the script as `bilibili_login_qr.png`. The program waits for confirmation on your phone. Once login is validated, cookies are saved to `bilibili_cookies.json`.
@@ -448,7 +448,7 @@ The QR image is saved beside the script as `bilibili_login_qr.png`. The program 
 To prevent the program from loading a saved session or prompting for QR login, run:
 
 ```bash
-py bilibili_manga_client_english.py --no-login --comic-id 34224
+py bilibili_manga_client.py --no-login --comic-id 34224
 ```
 
 Anonymous mode cannot make purchases. Chapters that require an account or prior purchase will not be accessible.
@@ -458,17 +458,17 @@ Anonymous mode cannot make purchases. Chapters that require an account or prior 
 You can provide the numeric ID or URL directly:
 
 ```bash
-py bilibili_manga_client_english.py --comic-id 34224
+py bilibili_manga_client.py --comic-id 34224
 ```
 
 ```bash
-py bilibili_manga_client_english.py --url "https://manga.bilibili.com/detail/mc34224"
+py bilibili_manga_client.py --url "https://manga.bilibili.com/detail/mc34224"
 ```
 
 To force QR login and provide the series in the same command:
 
 ```bash
-py bilibili_manga_client_english.py --qr-login --url "https://manga.bilibili.com/detail/mc34224"
+py bilibili_manga_client.py --qr-login --url "https://manga.bilibili.com/detail/mc34224"
 ```
 
 ### 5. Select chapters
