@@ -129,7 +129,7 @@ py bilibili_manga_client.py --comic-id 34224
 ```
 
 ```bash
-py bilibili_manga_client_english.py --url "https://manga.bilibili.com/detail/mc34224"
+py bilibili_manga_client.py --url "https://manga.bilibili.com/detail/mc34224"
 ```
 
 Para forzar QR y pasar la serie en el mismo comando:
