@@ -115,7 +115,7 @@ El QR se guarda junto al script como `bilibili_login_qr.png`. El programa espera
 Para evitar que el programa cargue una sesión guardada o pregunte por el QR:
 
 ```bash
-py bilibili_manga_client_english.py --no-login --comic-id 34224
+py bilibili_manga_client.py --no-login --comic-id 34224
 ```
 
 El modo anónimo no puede realizar compras. Además, los capítulos que requieren una cuenta o una compra previa no estarán disponibles.
@@ -125,7 +125,7 @@ El modo anónimo no puede realizar compras. Además, los capítulos que requiere
 Puedes proporcionar el ID o la URL directamente:
 
 ```bash
-py bilibili_manga_client_english.py --comic-id 34224
+py bilibili_manga_client.py --comic-id 34224
 ```
 
 ```bash
@@ -135,7 +135,7 @@ py bilibili_manga_client_english.py --url "https://manga.bilibili.com/detail/mc3
 Para forzar QR y pasar la serie en el mismo comando:
 
 ```bash
-py bilibili_manga_client_english.py --qr-login --url "https://manga.bilibili.com/detail/mc34224"
+py bilibili_manga_client.py --qr-login --url "https://manga.bilibili.com/detail/mc34224"
 ```
 
 ### 5. Seleccionar capítulos
